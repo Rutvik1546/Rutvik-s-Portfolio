@@ -147,7 +147,7 @@ nav ul img {
     width: 14rem;
   }
   .firstText{
-    margin-right: 5rem;
+    margin-right: 3.7rem;
   }
  
   .secImg{
@@ -156,7 +156,7 @@ nav ul img {
   }
   
   .secText{
-    margin-right: 1.8rem;
+    margin-right: 1rem;
     text-wrap: wrap;
     margin-bottom: 3rem;
   }
@@ -223,8 +223,8 @@ h3:hover {
 }
 
 .secImg {
-  height: 18.75rem;
-  width: 25rem;
+  height: 15.75rem;
+  width: 20rem;
   background-image: url("rock_paper_scissor.jpg");
   background-size: cover;
   margin: 20px 20px;
