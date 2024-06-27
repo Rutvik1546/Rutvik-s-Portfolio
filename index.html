@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutvik's Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+  
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left hamburgerGo">
+            <nav>
+
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                                viewBox="0 -960 960 960" width="40px" fill="#fff">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <img src="logo.png" alt="logo">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">My Intro</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="cv.pdf (3).pdf" target="_blank">Resume</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+                <ul>
+                    <img class="hideOnMobile" src="logo.png" alt="logo">
+                    <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                    <li class="hideOnMobile"><a href="about.html">My Intro</a></li>
+                    <li class="hideOnMobile"><a href="project.html">Projects</a></li>
+                    <li class="hideOnMobile"><a href="cv.pdf (3).pdf" target="_blank">Resume</a></li>
+                    <li class="hideOnMobile"><a href="contact.html">Contact Me</a></li>
+                    <li class="menuButton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="40px" viewBox="0 -920 960 960" width="40px" fill="#fff">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="main">
+
+
+            <!-- Home section start -->
+            <section id="homeSection">
+                <div class="infoContainer">
+
+                    <div class="mainText">
+                        <div class="hello">Hi, I am <span class="mono">Rutvik</span></div>
+                        <div class="text">and I am a passionate</div>
+                        <span class="auto_type"></span>
+                        <div class="buttons">
+                            <a href="cv.pdf (3).pdf" target="_blank">
+                                <button>Download C.V.</button></a>
+                            <a href="contact.html">
+                                <button>Contact Me</button></a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
