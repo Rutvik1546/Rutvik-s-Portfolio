@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding : 0px;
+
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color : white;
+    height: 5rem;
+    line-height: 5rem;
+    /* width : 100%; */
+
+}
+.choice{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* object-fit: cover; */
+}
+
+.choice:hover{
+    opacity: 50%;
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+img{
+    height: 150px;
+    width : 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.choices{
+    height: 170px;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.score-board{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap : 2rem;
+
+}
+
+#userWin, #compWin{
+    font-size: 4rem;
+}
+
+.msgContainer{
+    margin-top: 2rem;
+
+}
+.msg{
+    background-color: black;
+    color : white;
+    font-size: 2rem;
+    display: inline;
+    padding : 1rem;
+    border-radius: 1rem;
+
+}
+
+@media (max-width: 550px){
+    h1{
+        width: 100%;
+        font-size: 1.5rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .choices{
+        display: flex;
+      
+        /* flex-direction: column; */
+        height : 300px;
+        margin-right: 2rem;
+    }
+
+    .choice{
+        height: 120px;
+        width : 120px;
+        /* padding : 50px; */
+    }
+    img{
+        height: 120px;
+        width : 120px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .score-board{
+        font-size: 1rem;
+        margin-top : 2rem;
+    }
+    .msg{
+        font-size: 1rem;
+    }
+
+    
+
+    
+    
+}
+
+@media (max-width : 450px) {
+    h1{
+        width: 100%;
+        font-size: 1.2rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+    .choices{
+        display: flex;
+        flex-direction: column;
+        height : 300px;
+    }
+
+    .choice{
+        height: 110px;
+        width : 110px;
+        /* padding : 50px; */
+    }
+    img{
+        height: 110px;
+        width : 110px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .score-board{
+        font-size: 0.8rem;
+        margin-top : 5rem;
+    }
+    .msg{
+        font-size: 1rem;
+    }
+    
+}
